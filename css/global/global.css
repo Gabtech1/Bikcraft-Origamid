@@ -10,10 +10,19 @@ ul{
 }
 
 a{
+    color: inherit;
     text-decoration: none;
 }
 
 img{
     max-width: 100%;
     display: block;
+}
+
+img[src$=".jpg"]{
+    border-radius: 4px;
+}
+
+body{
+    color: #111111;
 }
