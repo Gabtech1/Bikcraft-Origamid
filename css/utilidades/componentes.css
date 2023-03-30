@@ -60,3 +60,26 @@
 .link:hover{
     color: var(--cor-c0);
 }
+
+.titulo-bg{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--cor-c11);
+}
+
+.titulo p{
+    margin-bottom: 4px;
+}
+
+@media (max-width: 800px){
+    .titulo{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .titulo p{
+        text-transform: lowercase;
+        font-weight: 400;
+        font-size: 1rem;
+    }
+}
